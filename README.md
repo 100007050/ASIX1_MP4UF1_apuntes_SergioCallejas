@@ -32,9 +32,9 @@ ___
 
 ## **_MarkDown_**
 
-ENCABEZADOS 
+### ENCABEZADOS 
 
-# →Es para poner encabezados. Máximo de encabezados 6#
+#→Es para poner encabezados. Máximo de encabezados 6#
 Los encabezados se crean usando el carácter sostenido # delante de la oración que quieras que se formatee como un encabezado. Los encabezados pueden ser de diferentes niveles, organizándose jerárquicamente.
 
 
@@ -61,7 +61,7 @@ Encabezado nivel 2
 ------------------
 ````
 
-PALABRAS 
+### PALABRAS 
 
 Para agregar texto resaltado en negrita tendrás que usar dos asteriscos ** o dos guiones bajos __ al principio y al final de lo oración que quieres resaltar. En caso de que quieras resaltar un texto que está en medio de una palabra, tedrás que agregar dos asteriscos ** o dos guiones bajos __, sin espacios, antes y después de las letras deseadas.
 
@@ -78,7 +78,7 @@ Para agregar texto en cursiva debes usar un solo asterisco * o un solo guión ba
 Para que en texto esté resaltado tanto en negrita como en cursiva al mismo tiempo debes agregar tres asteriscos *** o tres guiones bajos ___ antes y después de una palabra o de una frase. En caso de que el texto que quieres que esté en negrita y en cursiva esté en mitad de una palabra, deberás agregar también tres asteriscos *** o tres guiones bajos ___ sin espacios a ambos lados.
 
 
-TABLAS
+### TABLAS
 
 | Encabezado 1 |  Encabezado 2  | Encabezado 3 | 
 | ------------ |  :----------:  | -----------: |
@@ -88,7 +88,7 @@ TABLAS
 
 
 
-PARA CREAR LAS LINEAS HORIZONTALES
+### PARA CREAR LAS LINEAS HORIZONTALES
 
 Con Markdown también podrás agregar líneas horizontales, que resultan útiles para separar el contenido o las secciones de un documento.
 Para crear una línea horizontal basta con que agregues tres o más asteriscos seguidos, tres o más guiones seguidos o tres o más guiones bajos seguidos:
@@ -99,7 +99,7 @@ ___: tres guiones bajos consecutivos
 ***: tres asteriscos consecutivos
 ````
 
-CÓDIGO EN LINEA
+### CÓDIGO EN LINEA
 
 Para agregar código en línea en Markdown tendrás que usar comillas invertidas alrededor del texto que quieres que tengo formato de código
 
@@ -108,7 +108,7 @@ Usa el comando `cd`
 ``let str = `texto`;``
 ````
 
-LINKS
+### LINKS
 
 Para crear un enlace en Markdown debes situar entre corchetes el texto que quieres enlazar, también conocido como anchor. Seguidamente, debes usar paréntesis para definir la URL a la que debe enlazar en texto del enlace.
 Al igual que en HTML, también podrás enlazar a puntos ancla de la página actual o de otras páginas postponiendo el carácter sostenido # y el id de la sección a enlazar.
@@ -124,7 +124,7 @@ Además, también puedes crear enlaces rápidamente a una URL usando únicamente
 <me@email.com>
 ````
 
-LISTAS ORDENADAS
+### LISTAS ORDENADAS
 
 Para agregar listas ordenadas en Markdown debes agregar un número seguido de un punto, un espacio y el elemento de la lista. La lista no debe estar ordenada numéricamente, pero debe comenzar por el número
 
@@ -146,7 +146,7 @@ Si ponemos * →  Lista de puntos
 1. Tercer elemento
  
  
-LISTAS NO ORDENADAS
+### LISTAS NO ORDENADAS
  
 * Primer elemento
 * Segundo elemento
@@ -158,14 +158,13 @@ LISTAS NO ORDENADAS
 - Segundo elemento
  
  
-IMAGENES 
+### IMAGENES 
 
 Para agregar imágenes con Markdown debes agregar un signo de exclamación ! seguido del texto alternativo o alt de la imagen entre corchetes y de la URL de la imagen entre paréntesis.
 
 ![Súbdito](http://octodex.github.com/images/minion.png)
 
-
-
+___
 
 
 
