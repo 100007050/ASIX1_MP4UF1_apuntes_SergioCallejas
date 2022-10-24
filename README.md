@@ -1,35 +1,36 @@
 # ASIX1_MP4UF1_apuntes_SergioCallejas
 
-##**_GitHub_**
+## **_GitHub_**
 
 Comandos básicos de Git :
 
-**git init** inicializa un repositorio nuevo de Git y comienza a supervisar el directorio existente. Este agrega una subcarpeta oculta dentro del directorio existente que hospeda la estructura de datos interna que se requiere para el control de versiones.
+**git init** : inicializa un repositorio nuevo de Git y comienza a supervisar el directorio existente. Este agrega una subcarpeta oculta dentro del directorio existente que hospeda la estructura de datos interna que se requiere para el control de versiones.
 
-**git clone** crea una copia local de un proyecto que ya existe remotamente. El clon incluye todos los archivos, historial y ramas del proyecto.
+**git clone** : crea una copia local de un proyecto que ya existe remotamente. El clon incluye todos los archivos, historial y ramas del proyecto.
 
-**git add** almacena provisionalmente un cambio. Git rastrea los cambios que se hacen a la base de código de un desarrollador, pero es necesario probarlos y tomar una captura de pantalla de ellos para incluirla en el historial del proyecto. Este comando realiza pruebas, la primera parte de este proceso consta de dos pasos. Cualquier cambio que se pruebe, se convertirá en parte de la siguiente captura de pantalla y también del historial del proyecto. Las pruebas y confirmaciones por separado otorgan a los desarrolladores el control completo sobre el historial y sobre el proyecto sin cambiar la forma en la que codifican y trabajan.
+**git add** : almacena provisionalmente un cambio. Git rastrea los cambios que se hacen a la base de código de un desarrollador, pero es necesario probarlos y tomar una captura de pantalla de ellos para incluirla en el historial del proyecto. Este comando realiza pruebas, la primera parte de este proceso consta de dos pasos. Cualquier cambio que se pruebe, se convertirá en parte de la siguiente captura de pantalla y también del historial del proyecto. Las pruebas y confirmaciones por separado otorgan a los desarrolladores el control completo sobre el historial y sobre el proyecto sin cambiar la forma en la que codifican y trabajan.
 
-**git commit** guarda la instantánea del historial del proyecto y completa el proceso de seguimiento de los cambios. En resumen, una confirmación funciona tal como el tomar una fotografía. Todo lo que se haya almacenado provisionalmente con git add pasará a formar parte de la instantánea con git commit.
+**git commit** : guarda la instantánea del historial del proyecto y completa el proceso de seguimiento de los cambios. En resumen, una confirmación funciona tal como el tomar una fotografía. Todo lo que se haya almacenado provisionalmente con git add pasará a formar parte de la instantánea con git commit.
 
-**git status** muestra el estado de los cambios como sin seguimiento, modificados o almacenados provisionalmente.
+**git status** : muestra el estado de los cambios como sin seguimiento, modificados o almacenados provisionalmente.
 
-**git branch** muestra las ramas en las que se trabaja localmente.
+**git branch** : muestra las ramas en las que se trabaja localmente.
 
-**git merge** combina las líneas de desarrollo. Este comando habitualmente se utiliza para combinar los cambios que se realizan en dos ramas distintas. Por ejemplo, un desarrollador podría hacer una fusión cuando necesite combinar los cambios de una rama de característica en la rama de desarrollo principal.
+**git merge** : combina las líneas de desarrollo. Este comando habitualmente se utiliza para combinar los cambios que se realizan en dos ramas distintas. Por ejemplo, un desarrollador podría hacer una fusión cuando necesite combinar los cambios de una rama de característica en la rama de desarrollo principal.
 
-**git pull** actualiza la línea de desarrollo local con actualizaciones de sus contrapartes remotas. Los desarrolladores utilizan este comando si un compañero de equipo hizo confirmaciones en una rama en un repositorio remoto y quieren reflejarlas en su ambiente local.
+**git pull** : actualiza la línea de desarrollo local con actualizaciones de sus contrapartes remotas. Los desarrolladores utilizan este comando si un compañero de equipo hizo confirmaciones en una rama en un repositorio remoto y quieren reflejarlas en su ambiente local.
 
-**git push** actualiza el repositorio remoto con las confirmaciones realizadas localmente en una rama.
+**git push** : actualiza el repositorio remoto con las confirmaciones realizadas localmente en una rama.
 
-**git branch** -M main Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”. 
+**git branch** : -M main Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”. 
 
-**git push** -u origin main Subimos los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
+**git push** : -u origin main Subimos los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
 
-**git clone** + URL* → clonar de GitHub a tu ordenador
+**git clone** + URL* : clonar de GitHub a tu ordenador
 
+___
 
-##**_MarkDown_**
+## **_MarkDown_**
 
 ENCABEZADOS 
 
@@ -91,42 +92,32 @@ ___: tres guiones bajos consecutivos
 ***: tres asteriscos consecutivos
 
 
-Código en línea
+CÓDIGO EN LINEA
 
 Para agregar código en línea en Markdown tendrás que usar comillas invertidas alrededor del texto que quieres que tengo formato de código
 
+````
 Usa el comando `cd`
 ``let str = `texto`;``
+````
 
+LINKS
 
-[link]
-
-Subir una  imagen al repositorio Crt V de imagen descargada 
-
+Para crear un enlace en Markdown debes situar entre corchetes el texto que quieres enlazar, también conocido como anchor. Seguidamente, debes usar paréntesis para definir la URL a la que debe enlazar en texto del enlace.
+Al igual que en HTML, también podrás enlazar a puntos ancla de la página actual o de otras páginas postponiendo el carácter sostenido # y el id de la sección a enlazar.
+Además, también puedes crear enlaces rápidamente a una URL usando únicamente un enlace, sin necesidad de definir un texto de enlace o anchor. Para ello deberás escribir un símbolo mayor > seguido del enlace y un símbolo menor <.
 
 [Enlace](https://linux.com)
 
-
-
-
 [Encabezados](#encabezados)
 
-
-
-
 <https://linux.com>
-
-
-
 
 <me@email.com>
 
 
+LISTAS ORDENADAS
 
-
-
-
-Listas ordenadas
 Para agregar listas ordenadas en Markdown debes agregar un número seguido de un punto, un espacio y el elemento de la lista. La lista no debe estar ordenada numéricamente, pero debe comenzar por el número
  
  1. + espacio → Lista Ordenada 
@@ -135,8 +126,7 @@ Para agregar listas ordenadas en Markdown debes agregar un número seguido de un
 
 Si ponemos * →  Lista de puntos 
  
- 
- 
+  
 1. Primer elemento
 2. Segundo elemento
 3. Tercer elemento
@@ -147,29 +137,21 @@ Si ponemos * →  Lista de puntos
 1. Tercer elemento
  
  
-
- 
-Listas no ordenadas
- 
-Markdown
- 
+LISTAS NO ORDENADAS
  
 * Primer elemento
 * Segundo elemento
  
- 
 + Primer elemento
 + Segundo elemento
- 
  
 - Primer elemento
 - Segundo elemento
  
  
+IMAGENES 
 
- 
-
-Las imágenes tienen una sintaxis similar a los enlaces, pero incluyen un signo de exclamación anterior.
+Para agregar imágenes con Markdown debes agregar un signo de exclamación ! seguido del texto alternativo o alt de la imagen entre corchetes y de la URL de la imagen entre paréntesis.
 
 ![Súbdito](http://octodex.github.com/images/minion.png)
 
@@ -178,7 +160,4 @@ Las imágenes tienen una sintaxis similar a los enlaces, pero incluyen un signo 
 
 
 
-cd → entrar a una carpeta
-cd. → salir de una carpeta
-cd/ → salir a la última carpeta 
 
