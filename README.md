@@ -166,6 +166,94 @@ Para agregar imágenes con Markdown debes agregar un signo de exclamación ! seg
 
 ___
 
+## HTML
+
+HTML són les sigles de Hyper Text Markup Language. HTML és un llenguatge de marques per descriure documents web (pàgines web) més usat actualment en el món web.
+
+**<html>**: Element arrel del document.
+
+**<head>**: Capçalera, espai destinat a contenir informació del document. 
+
+**<title>**: Títol descriptiu de la pàgina web. Normalment apareix a la barra del navegador, també és el text que s’emmagatzema en els marcadors del navegador (llista d’adreces d’interès). 
+
+**<body>**: Cos o contingut del document. 
+
+
+<!DOCTYPE html> — el tipo de documento. 
+Es un preámbulo requerido. Anteriormente, cuando HTML era joven (cerca de 1991/2), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno, lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo que a nadie le importa, pero que debe ser incluido para que todo funcione correctamente. Por ahora, eso es todo lo que necesitas saber.
+ 
+<html></html> — el elemento <html>. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element).
+ 
+<head></head> — el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. Incluye cosas como palabras clave (keywords), una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc.
+ 
+
+<title></title> — el elemento <title> establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
+ 
+<body></body> — el elemento <body>. Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
+
+Una capçalera mínima seria la següent: 
+ 
+````
+Exemple d’un fitxer index.html
+
+<!DOCTYPE html >
+<html>
+   <head>
+<meta charset="utf-8"/>
+  	<title>La meva pàgina web</title>
+   </head>
+   <body>
+<!-- Contingut de la web -->
+   </body>
+</html>
+````
+ 
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Encapçalaments. El número denota el nivell de l’encapçalament, és a dir <h1> és l’encapçalament de primer nivell i <h6> l’encapçalament d’últim nivell.
+
+Encapçalament 1
+Encapçalament 2
+Encapçalament 3
+Encapçalament 4
+Encapçalament 5
+Encapçalament 6
+
+
+**<p>**: Paràgraf. 
+ 
+**<br/>**: Salt de línia. 
+ 
+**<hr/>**: Línia separadora. 
+ 
+**<blockquote>**: Citació de tipus bloc. 
+ 
+**<pre>**: Text preformatat. 
+
+**<div>**: Capa. Es tracta d’una etiqueta de tipus bloc sense significat semàntic que ens servirà per agrupar text i/o d’altres elements. 
+
+ETIQUETAS CORRESPONDIENTES A ELEMENTOS DE LINEA
+
+A continuació es detalla un resum de les etiquetes de text corresponents a elements de línia, més importants: 
+
+**<em>**: Text amb èmfasi/cursivai. 
+
+**<strong>**: Text amb molt èmfasi. 
+
+**<q>**: Citació de tipus línia. 
+
+**<cite>**: Font de la citació. 
+
+**<acronym>**: Acrònim. 
+
+**<abbr>**: Abreviació. 
+
+**<code>**: Codi de programació. 
+
+IMAGENES
+
+L’etiqueta que ens serveix per inserir una imatge és l’etiqueta <img>. Es tracta d’un element de línia que no té etiqueta de tancament: es tanca en ella mateixa. 
+
+<img src="media/logo.png" alt="Logo de la web" /> 
+
 
 
 
