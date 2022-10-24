@@ -53,17 +53,21 @@ Los encabezados se crean usando el carácter sostenido # delante de la oración 
 
 También existe una sintaxis alternativa para los encabezados que consiste en agregar un número de caracteres = equivalente al número de caracteres del encabezado de la línea superior.
 
+````
 Encabezado nivel 1
 ==================
 
 Encabezado nivel 2
 ------------------
+´´´´
 
 PALABRAS 
 
 Para agregar texto resaltado en negrita tendrás que usar dos asteriscos ** o dos guiones bajos __ al principio y al final de lo oración que quieres resaltar. En caso de que quieras resaltar un texto que está en medio de una palabra, tedrás que agregar dos asteriscos ** o dos guiones bajos __, sin espacios, antes y después de las letras deseadas.
 
+````
 **palabra** __palabra__ → Negrita 
+´´´´
 
 Para agregar texto en cursiva debes usar un solo asterisco * o un solo guión bajo _ tanto al inicio como al final de lo oración que quieres marcar como cursiva. Si quieres poner en cursiva ciertas letras que estén en la mitad de una palabra, deberás agregar un asterisco * o un guión bajo _, sin espacios, al comienzo y al final de las letras deseadas.
 
