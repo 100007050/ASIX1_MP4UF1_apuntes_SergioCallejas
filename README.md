@@ -34,7 +34,7 @@ ___
 
 ENCABEZADOS 
 
-# → Es para poner encabezados. Máximo de encabezados 6 #
+# →Es para poner encabezados. Máximo de encabezados 6#
 Los encabezados se crean usando el carácter sostenido # delante de la oración que quieras que se formatee como un encabezado. Los encabezados pueden ser de diferentes niveles, organizándose jerárquicamente.
 
 
