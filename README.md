@@ -214,36 +214,35 @@ Encapçalaments. El número denota el nivell de l’encapçalament, és a dir <h
 ![image](https://user-images.githubusercontent.com/113420594/197594387-0ba0db09-aa75-42bc-b6ec-2b122e77f7a6.png)
 
 
+**p** : Paràgraf. 
+ 
+**br/** : Salt de línia. 
+ 
+**hr/** : Línia separadora. 
+ 
+**blockquote** : Citació de tipus bloc. 
+ 
+**pre** : Text preformatat. 
 
-**p**: Paràgraf. 
- 
-**br/**: Salt de línia. 
- 
-**hr/**: Línia separadora. 
- 
-**blockquote**: Citació de tipus bloc. 
- 
-**pre**: Text preformatat. 
-
-**div**: Capa. Es tracta d’una etiqueta de tipus bloc sense significat semàntic que ens servirà per agrupar text i/o d’altres elements. 
+**div** : Capa. Es tracta d’una etiqueta de tipus bloc sense significat semàntic que ens servirà per agrupar text i/o d’altres elements. 
 
 ETIQUETAS CORRESPONDIENTES A ELEMENTOS DE LINEA
 
 A continuació es detalla un resum de les etiquetes de text corresponents a elements de línia, més importants: 
 
-**em**: Text amb èmfasi/cursivai. 
+**em** : Text amb èmfasi/cursivai. 
 
-**strong**: Text amb molt èmfasi. 
+**strong** : Text amb molt èmfasi. 
 
-**q**: Citació de tipus línia. 
+**q** : Citació de tipus línia. 
 
-**cite**: Font de la citació. 
+**cite** : Font de la citació. 
 
-**acronym**: Acrònim. 
+**acronym** : Acrònim. 
 
-**abbr**: Abreviació. 
+**abbr** : Abreviació. 
 
-**code**: Codi de programació. 
+**code** : Codi de programació. 
 
 IMAGENES
 
