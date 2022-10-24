@@ -209,10 +209,13 @@ Exemple d’un fitxer index.html
 ````
 
  
-Encapçalaments. El número denota el nivell de l’encapçalament, és a dir h1 és l’encapçalament de primer nivell i h6 l’encapçalament d’últim nivell.
+### Encapçalaments
+
+El número denota el nivell de l’encapçalament, és a dir h1 és l’encapçalament de primer nivell i h6 l’encapçalament d’últim nivell.
 
 ![image](https://user-images.githubusercontent.com/113420594/197594387-0ba0db09-aa75-42bc-b6ec-2b122e77f7a6.png)
 
+### ELEMENTOS DE LINEA
 
 **p** : Paràgraf. 
  
@@ -226,7 +229,7 @@ Encapçalaments. El número denota el nivell de l’encapçalament, és a dir h1
 
 **div** : Capa. Es tracta d’una etiqueta de tipus bloc sense significat semàntic que ens servirà per agrupar text i/o d’altres elements. 
 
-ETIQUETAS CORRESPONDIENTES A ELEMENTOS DE LINEA
+### ETIQUETAS CORRESPONDIENTES A ELEMENTOS DE LINEA
 
 A continuació es detalla un resum de les etiquetes de text corresponents a elements de línia, més importants: 
 
