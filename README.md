@@ -209,7 +209,7 @@ Exemple d’un fitxer index.html
 ````
 
  
-Encapçalaments. El número denota el nivell de l’encapçalament, és a dir <h1> és l’encapçalament de primer nivell i h6 l’encapçalament d’últim nivell.
+Encapçalaments. El número denota el nivell de l’encapçalament, és a dir h1 és l’encapçalament de primer nivell i h6 l’encapçalament d’últim nivell.
 
 ![image](https://user-images.githubusercontent.com/113420594/197594387-0ba0db09-aa75-42bc-b6ec-2b122e77f7a6.png)
 
@@ -248,7 +248,7 @@ IMAGENES
 
 L’etiqueta que ens serveix per inserir una imatge és l’etiqueta <img>. Es tracta d’un element de línia que no té etiqueta de tancament: es tanca en ella mateixa. 
 
-img src="media/logo.png" alt="Logo de la web" / 
+![image](https://user-images.githubusercontent.com/75097605/197519518-e7e205b1-0f2e-4b6b-822d-57af5dc4cc29.png)
 
 
 
