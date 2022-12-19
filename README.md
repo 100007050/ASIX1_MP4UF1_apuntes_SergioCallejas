@@ -253,10 +253,11 @@ L’etiqueta que ens serveix per inserir una imatge és l’etiqueta <img>. Es t
 
 ![image](https://user-images.githubusercontent.com/75097605/197519518-e7e205b1-0f2e-4b6b-822d-57af5dc4cc29.png)
 
+___
 
 ### INTRODUCCION A CSS
 
-1. _Maquetación básica_
+#### 1. _Maquetación básica_
 
 **width** : Ancho de un elemento.
 
@@ -271,6 +272,41 @@ L’etiqueta que ens serveix per inserir una imatge és l’etiqueta <img>. Es t
 **float** : Mueve el elemento todo lo posible hacia el lado indicado. Esta propiedad se usa en el posicionamiento flotante de CSS. El tema del posicionamiento en CSS no es trivial y conviene estudiar cómo funciona antes de usar esta propiedad.
 
 ![image](https://user-images.githubusercontent.com/113420594/208419431-358000de-2d05-4a67-9a08-dee2b80b9002.png)
+
+#### 2. _Fuentes y texto_
+
+**font-family** : Tipo de letra
+
+**font-size** : Tamaño de letra
+
+**font-weight** : Peso (normal, negrita, …)
+
+**font-style** : Estilo (normal, cursiva, …)
+
+**text-decoration** : “Decoraciones” como subrayado, tachado, etc.
+
+**text-align** : Alineación del texto (izquierda, derecha, etc.)
+
+En [Enlace](https://fonts.google.com/) localizamos la familia de fuentes que queremos añadir y la seleccionamos. Esto nos permitira ver el codigo necesario para ponerlo en "<head>" en el archivo HTML y las reglas necesarias para añadirla a la hoja de estilos CSS.
+
+3. _Color y fondos_
+
+**color** : Color del elemento. Se puede especificar en diferentes formatos como palabras predefinidas (red, green, etc.) RGB o como valor hexadecimal.
+
+**background-color** : Color del fondo del elemento.
+
+**background-image** : Permite especificar una imagen de fondo.
+
+**background-repeat** : Permite usar una imagen a modo de mosaico en diferentes modalidades.
+
+**box-shadow** : Crear un efecto de sombra para un elemento.
+
+4. _Listas_
+
+**list-style-image: Usar la imagen especificada como viñeta para la lista.
+
+list-style-type: Diferentes estilos de viñetas y estilos de numeración para elementos de lista.
+
 
 
 
