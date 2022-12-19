@@ -329,7 +329,91 @@ En [Google Fonts](https://fonts.google.com/) localizamos la familia de fuentes q
 **border-radius** : Permite crear esquinas redondeadas para un elemento.
 
 
+### SELECTORES CSS
 
 
+El selector universal CSS (*) coincide con elementos de cualquier tipo.
+
+
+````
+/* Selecciona todos los elementos */
+* {
+  color: green;
+}
+````
+
+El selector de atributos CSS coincide con los elementos en función de la presencia o el valor de un atributo determinado.
+
+
+````
+/* Elementos <a> con un atributo title */
+a[title] {
+  color: purple;
+}
+
+/* Elementos <a> con un href que coincida con "https://example.org" */
+a[href="https://example.org"] {
+  color: green;
+}
+
+/* Elementos <a> con un href que contenga "example" */
+a[href*="example"] {
+  font-size: 2em;
+}
+
+/* Elementos <a> con un href que comience con "#" */
+a[href^="#"] {
+  color: #001978;
+}
+
+/* Elementos <a> con un href que termine en ".org" */
+a[href$=".org"] {
+  font-style: italic;
+}
+
+/* Elementos <a> cuyo atributo class contenga la palabra "logo" */
+a[class~="logo"] {
+  padding: 2px;
+}
+````
+
+El combinador > separa a dos selectores y busca solo a los elementos que coindicen con el segundo selector y que son hijos directos del primero. EN contraste, cuando se combinan dos selectores con el selector de descendiente, la expresión busca elementos que coinciden con el segundo selector y que tienen algun ancestro que coindice con el primero, sin importar el nivel de separación que tengan dentro del DOM.
+
+
+````
+span { background-color: white; }
+div > span {
+  background-color: DodgerBlue;
+}
+````
+
+
+El ␣ combinador (que se supone que representan un espacio, o mejor dicho uno o más espacios en blanco) combina dos selectores tales que el selector combinado incluye sólo los elementos que coinciden con el segundo selector para los que hay un elemento ancestro que coincide con el primer selector. Los selectores descendientes son similares a selectores hijos , pero que no requieren que la relación entre los elementos coincidentes ser estrictamente entre padres e hijos.
+
+
+````
+span { background-color: white; }
+div span { background-color: DodgerBlue; }
+````
+
+Se hace referencia a este selector como selector adyacente o selector del próximo hermano. Sólo seleccionará un elemento especificado que esté inmediatamente después de otro elemento especificado.
+
+
+````
+li:first-of-type + li {
+  color: red;
+}
+````
+
+Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo, :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
+
+
+````
+div:hover {
+  background-color: #F89B4D;
+}
+````
+
+Al igual que las pseudo-classes, los pseudo-elementos se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la primera línea del elemento especificado por el selector.
 
 
