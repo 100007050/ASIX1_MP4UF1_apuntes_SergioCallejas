@@ -292,7 +292,7 @@ ___
 
 **text-align** : Alineación del texto (izquierda, derecha, etc.)
 
-En [https://fonts.google.com/](https://fonts.google.com/) localizamos la familia de fuentes que queremos añadir y la seleccionamos. Esto nos permitira ver el codigo necesario para ponerlo en "head" en el archivo HTML y las reglas necesarias para añadirla a la hoja de estilos CSS.
+En [Google Fonts](https://fonts.google.com/) localizamos la familia de fuentes que queremos añadir y la seleccionamos. Esto nos permitira ver el codigo necesario para ponerlo en "head" en el archivo HTML y las reglas necesarias para añadirla a la hoja de estilos CSS.
 
 
 ### 3. _Color y fondos_
@@ -321,8 +321,11 @@ En [https://fonts.google.com/](https://fonts.google.com/) localizamos la familia
 
 
 **border** : Añade un borde a un elemento y establece algunas propiedades (grosor, estilo de línea, etc.)
+
 **border-color** : Color del borde.
+
 **border-style** : Diferentes estilos para el borde (sólido, puntos, etc.)
+
 **border-radius** : Permite crear esquinas redondeadas para un elemento.
 
 
