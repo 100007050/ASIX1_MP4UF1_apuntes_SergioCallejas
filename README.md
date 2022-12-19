@@ -332,7 +332,7 @@ En [Google Fonts](https://fonts.google.com/) localizamos la familia de fuentes q
 ### SELECTORES CSS
 
 
-El selector universal CSS (*) coincide con elementos de cualquier tipo.
+* El selector universal CSS (*) coincide con elementos de cualquier tipo.
 
 
 ````
@@ -342,7 +342,7 @@ El selector universal CSS (*) coincide con elementos de cualquier tipo.
 }
 ````
 
-El selector de atributos CSS coincide con los elementos en función de la presencia o el valor de un atributo determinado.
+* El selector de atributos CSS coincide con los elementos en función de la presencia o el valor de un atributo determinado.
 
 
 ````
@@ -377,7 +377,7 @@ a[class~="logo"] {
 }
 ````
 
-El combinador > separa a dos selectores y busca solo a los elementos que coindicen con el segundo selector y que son hijos directos del primero. EN contraste, cuando se combinan dos selectores con el selector de descendiente, la expresión busca elementos que coinciden con el segundo selector y que tienen algun ancestro que coindice con el primero, sin importar el nivel de separación que tengan dentro del DOM.
+* El combinador ````>```` separa a dos selectores y busca solo a los elementos que coindicen con el segundo selector y que son hijos directos del primero. EN contraste, cuando se combinan dos selectores con el selector de descendiente, la expresión busca elementos que coinciden con el segundo selector y que tienen algun ancestro que coindice con el primero, sin importar el nivel de separación que tengan dentro del DOM.
 
 
 ````
@@ -388,7 +388,7 @@ div > span {
 ````
 
 
-El ␣ combinador (que se supone que representan un espacio, o mejor dicho uno o más espacios en blanco) combina dos selectores tales que el selector combinado incluye sólo los elementos que coinciden con el segundo selector para los que hay un elemento ancestro que coincide con el primer selector. Los selectores descendientes son similares a selectores hijos , pero que no requieren que la relación entre los elementos coincidentes ser estrictamente entre padres e hijos.
+* El ````␣```` combinador (que se supone que representan un espacio, o mejor dicho uno o más espacios en blanco) combina dos selectores tales que el selector combinado incluye sólo los elementos que coinciden con el segundo selector para los que hay un elemento ancestro que coincide con el primer selector. Los selectores descendientes son similares a selectores hijos , pero que no requieren que la relación entre los elementos coincidentes ser estrictamente entre padres e hijos.
 
 
 ````
@@ -396,7 +396,7 @@ span { background-color: white; }
 div span { background-color: DodgerBlue; }
 ````
 
-Se hace referencia a este selector como selector adyacente o selector del próximo hermano. Sólo seleccionará un elemento especificado que esté inmediatamente después de otro elemento especificado.
+* Se hace referencia a este selector como selector adyacente o selector del próximo hermano. Sólo seleccionará un elemento especificado que esté inmediatamente después de otro elemento especificado.
 
 
 ````
@@ -405,7 +405,7 @@ li:first-of-type + li {
 }
 ````
 
-Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo, :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
+* Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo, :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
 
 
 ````
@@ -414,6 +414,6 @@ div:hover {
 }
 ````
 
-Al igual que las pseudo-classes, los pseudo-elementos se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la primera línea del elemento especificado por el selector.
+* Al igual que las ````pseudo-classes````, los pseudo-elementos se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento. Por ejemplo, el pseudoelemento ````::first-line```` selecciona solo la primera línea del elemento especificado por el selector.
 
 
