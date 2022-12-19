@@ -254,5 +254,26 @@ L’etiqueta que ens serveix per inserir una imatge és l’etiqueta <img>. Es t
 ![image](https://user-images.githubusercontent.com/75097605/197519518-e7e205b1-0f2e-4b6b-822d-57af5dc4cc29.png)
 
 
+### INTRODUCCION A CSS
+
+1. _Maquetación básica_
+
+**width** : Ancho de un elemento.
+
+**height** : Alto de un elemento.
+
+**vertical-align** : Alineamiento vertical dentro de un elemento.
+
+**margin** : Espacio que se añade entre el elemento y sus vecinos. Se puede diferencia por lado (arriba, abajo, izquierda, derecha).
+
+**padding** : Relleno interior que se añade en los bordes del A diferencia de margin, cuenta para el tamaño del elemento.
+
+**float** : Mueve el elemento todo lo posible hacia el lado indicado. Esta propiedad se usa en el posicionamiento flotante de CSS. El tema del posicionamiento en CSS no es trivial y conviene estudiar cómo funciona antes de usar esta propiedad.
+
+![image](https://user-images.githubusercontent.com/113420594/208419431-358000de-2d05-4a67-9a08-dee2b80b9002.png)
+
+
+
+
 
 
