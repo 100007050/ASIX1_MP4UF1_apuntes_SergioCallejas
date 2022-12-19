@@ -257,7 +257,9 @@ ___
 
 ### INTRODUCCION A CSS
 
-#### 1. _Maquetación básica_
+
+### 1. _Maquetación básica_
+
 
 **width** : Ancho de un elemento.
 
@@ -273,7 +275,10 @@ ___
 
 ![image](https://user-images.githubusercontent.com/113420594/208419431-358000de-2d05-4a67-9a08-dee2b80b9002.png)
 
-#### 2. _Fuentes y texto_
+
+
+### 2. _Fuentes y texto_
+
 
 **font-family** : Tipo de letra
 
@@ -287,9 +292,11 @@ ___
 
 **text-align** : Alineación del texto (izquierda, derecha, etc.)
 
-En [Enlace](https://fonts.google.com/) localizamos la familia de fuentes que queremos añadir y la seleccionamos. Esto nos permitira ver el codigo necesario para ponerlo en "<head>" en el archivo HTML y las reglas necesarias para añadirla a la hoja de estilos CSS.
+En [https://fonts.google.com/](https://fonts.google.com/) localizamos la familia de fuentes que queremos añadir y la seleccionamos. Esto nos permitira ver el codigo necesario para ponerlo en "head" en el archivo HTML y las reglas necesarias para añadirla a la hoja de estilos CSS.
 
-3. _Color y fondos_
+
+### 3. _Color y fondos_
+
 
 **color** : Color del elemento. Se puede especificar en diferentes formatos como palabras predefinidas (red, green, etc.) RGB o como valor hexadecimal.
 
@@ -301,12 +308,22 @@ En [Enlace](https://fonts.google.com/) localizamos la familia de fuentes que que
 
 **box-shadow** : Crear un efecto de sombra para un elemento.
 
-4. _Listas_
 
-**list-style-image: Usar la imagen especificada como viñeta para la lista.
+### 4. _Listas_
 
-list-style-type: Diferentes estilos de viñetas y estilos de numeración para elementos de lista.
 
+**list-style-image** : Usar la imagen especificada como viñeta para la lista.
+
+**list-style-type** : Diferentes estilos de viñetas y estilos de numeración para elementos de lista.
+
+
+### 5. _Bordes_
+
+
+**border** : Añade un borde a un elemento y establece algunas propiedades (grosor, estilo de línea, etc.)
+**border-color** : Color del borde.
+**border-style** : Diferentes estilos para el borde (sólido, puntos, etc.)
+**border-radius** : Permite crear esquinas redondeadas para un elemento.
 
 
 
