@@ -257,6 +257,16 @@ ___
 
 ### INTRODUCCION A CSS
 
++**Regla**: cada uno de los estilos que componen una hoja de estilos CSS. Cada regla está compuesta de una parte de "selectores", un símbolo de "llave de apertura" ({), otra parte denominada "declaración" y por último, un símbolo de "llave de cierre" (}).
++**Selector**: indica el elemento o elementos HTML a los que se aplica la regla CSS.
++**Declaración**: especifica los estilos que se aplican a los elementos. Está compuesta por una o más propiedades CSS.
++**Propiedad**: característica que se modifica en el elemento seleccionado, como por ejemplo su tamaño de letra, su color de fondo, etc.
++**Valor**: establece el nuevo valor de la característica modificada en el elemento.
+
+
+![image](https://user-images.githubusercontent.com/113420594/208616913-fdc186c5-a72d-40a1-9ce2-cd1eeb23944c.png)
+
+
 
 ### 1. _Maquetación básica_
 
