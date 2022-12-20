@@ -257,7 +257,7 @@ ___
 
 ### INTRODUCCION A CSS
 
-+ **Regla**: cada uno de los estilos que componen una hoja de estilos CSS. Cada regla está compuesta de una parte de "selectores", un símbolo de "llave de apertura" ({), otra parte denominada "declaración" y por último, un símbolo de "llave de cierre" (}).
++ **Regla**: cada uno de los estilos que componen una hoja de estilos CSS. Cada regla está compuesta de una parte de "selectores", un símbolo de "llave de apertura" ````{````, otra parte denominada "declaración" y por último, un símbolo de "llave de cierre" ````}````.
 
 + **Selector**: indica el elemento o elementos HTML a los que se aplica la regla CSS.
 
